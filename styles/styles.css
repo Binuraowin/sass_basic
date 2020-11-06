@@ -1,4 +1,4 @@
-header {
+header, .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,11 +17,11 @@ header {
   color: #3a2a2a;
 }
 
-header button {
+header button, .info button {
   background: #38928e;
 }
 
-header button:hover {
+header button:hover, .info button:hover {
   background: red;
 }
 
@@ -41,5 +41,9 @@ header button:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   background: lightcoral;
+}
+
+.info {
+  width: 80vh;
 }
 /*# sourceMappingURL=styles.css.map */
